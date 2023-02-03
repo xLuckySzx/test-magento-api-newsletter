@@ -1,6 +1,6 @@
 <?php
 
-namespace Albedo\NewsletterApi\Api\Data;
+namespace Lucky\NewsletterApi\Api\Data;
 
 interface SubscriberInterface {
 

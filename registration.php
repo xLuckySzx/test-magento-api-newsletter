@@ -2,5 +2,5 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Albedo_NewsletterApi', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Lucky_NewsletterApi', __DIR__);
 

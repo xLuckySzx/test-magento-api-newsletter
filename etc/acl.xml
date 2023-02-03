@@ -5,8 +5,8 @@
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Backend::marketing">
                     <resource id="Magento_Backend::marketing_communications">
-                        <resource id="Albedo_NewsletterApi::read" title="Newsletter API Endpoint (read)"/>
-                        <resource id="Albedo_NewsletterApi::write" title="Newsletter API Endpoint (write)"/>
+                        <resource id="Lucky_NewsletterApi::read" title="Newsletter API Endpoint (read)"/>
+                        <resource id="Lucky_NewsletterApi::write" title="Newsletter API Endpoint (write)"/>
                     </resource>
                 </resource>
             </resource>

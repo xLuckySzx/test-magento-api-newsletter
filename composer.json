@@ -7,6 +7,10 @@
         {
             "email": "adam.karnowka@creativestyle.pl",
             "name": "Adam Karnowka"
+        },
+        {
+            "email": "a.damiani@dpstudio.ch",
+            "name": "Angelo Damiani"
         }
     ],
     "minimum-stability": "stable",
@@ -16,7 +20,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Albedo\\NewsletterApi\\": ""
+            "Lucky\\NewsletterApi\\": ""
         }
     }
 }

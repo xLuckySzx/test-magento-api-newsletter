@@ -34,11 +34,11 @@ php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c
 
  Install the module composer by running 
  
- `composer require albedo/module-newsletter-api`
+ `composer require lucky/module-newsletter-api`
  
  Enable the module by running 
  
- `php bin/magento module:enable Albedo_NewsletterApi`
+ `php bin/magento module:enable Lucky_NewsletterApi`
  
 Apply database updates by running 
 

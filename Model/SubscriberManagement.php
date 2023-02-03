@@ -1,10 +1,10 @@
 <?php
 
-namespace Albedo\NewsletterApi\Model;
+namespace Lucky\NewsletterApi\Model;
 
 use Magento\Framework\Exception\LocalizedException;
 
-class SubscriberManagement extends \Magento\Newsletter\Model\Subscriber implements \Albedo\NewsletterApi\Api\SubscriberManagementInterface
+class SubscriberManagement extends \Magento\Newsletter\Model\Subscriber implements \Lucky\NewsletterApi\Api\SubscriberManagementInterface
 {
 
     protected $subscriberModel;
@@ -28,8 +28,8 @@ class SubscriberManagement extends \Magento\Newsletter\Model\Subscriber implemen
     }
 
     /**
-     * @param \Albedo\NewsletterApi\Api\Data\SubscriberInterface $subscriber
-     * @return \Albedo\NewsletterApi\Api\Data\SubscriberInterface
+     * @param \Lucky\NewsletterApi\Api\Data\SubscriberInterface $subscriber
+     * @return \Lucky\NewsletterApi\Api\Data\SubscriberInterface
      * @throws LocalizedException
      */
     public function postSubscriber($subscriber)
