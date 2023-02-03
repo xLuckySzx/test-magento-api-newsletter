@@ -1,6 +1,6 @@
 # Magento2 API Endpoint for Newsletter module
 
-    albedo/module-newsletter-api
+    lucky/module-newsletter-api
 
 ### Description
 REST API Layer for Magento Newsletter module adds additional 4 methods which allow to list and manage Magento subscribers.
@@ -21,7 +21,7 @@ When e-mail is subscribed, it will trigger/dispatch all observers and send e-mai
  
 You can run tests by executing:
 ```$xslt 
-php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml 
+php ../../../vendor/bin/phpunit ../../../app/code/Lucky/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml 
 ```
 
 ⚠️ Make sure to have `api-functional/phpunit_rest.xml` properly configured!

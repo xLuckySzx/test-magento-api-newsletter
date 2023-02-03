@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Albedo\NewsletterApi\Test\Integration;
+namespace Lucky\NewsletterApi\Test\Integration;
 
 use Magento\Framework\Webapi\Rest\Request;
 use Magento\TestFramework\TestCase\WebapiAbstract;

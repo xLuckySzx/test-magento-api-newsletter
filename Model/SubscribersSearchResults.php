@@ -1,8 +1,8 @@
 <?php
 
-namespace Albedo\NewsletterApi\Model;
+namespace Lucky\NewsletterApi\Model;
 
-class SubscribersSearchResults implements \Albedo\NewsletterApi\Api\Data\SubscribersSearchResultsInterface {
+class SubscribersSearchResults implements \Lucky\NewsletterApi\Api\Data\SubscribersSearchResultsInterface {
 
     public function getItems()
     {
@@ -10,8 +10,8 @@ class SubscribersSearchResults implements \Albedo\NewsletterApi\Api\Data\Subscri
     }
 
     /**
-     * @param \Albedo\NewsletterApi\Api\Data\SubscriberInterface[]|array $subscribers
-     * @return \Albedo\NewsletterApi\Api\Data\SubscribersSearchResultsInterface|void
+     * @param \Lucky\NewsletterApi\Api\Data\SubscriberInterface[]|array $subscribers
+     * @return \Lucky\NewsletterApi\Api\Data\SubscribersSearchResultsInterface|void
      */
     public function setItems($subscribers){
 

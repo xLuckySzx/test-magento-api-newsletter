@@ -1,8 +1,8 @@
 <?php
 
-namespace Albedo\NewsletterApi\Model;
+namespace Lucky\NewsletterApi\Model;
 
-class Subscriber implements \Albedo\NewsletterApi\Api\Data\SubscriberInterface{
+class Subscriber implements \Lucky\NewsletterApi\Api\Data\SubscriberInterface{
 
     private $data = [];
 
