@@ -1,5 +1,5 @@
 {
-    "name": "albedo/module-newsletter-api",
+    "name": "lucky/module-newsletter-api",
     "description": "REST API Layer for Magento Newsletter module.",
     "type": "magento2-module",
     "license": "OSL-3.0",
