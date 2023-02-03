@@ -44,6 +44,7 @@ interface SubscriberManagementInterface
      * Delete subscriber by id.
      *
      * @param int $subscriberId
+     * @return mixed
      */
     public function deleteSubscriber($subscriberId);
 }
