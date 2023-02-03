@@ -109,7 +109,7 @@ class SubscriberManagement extends \Magento\Newsletter\Model\Subscriber implemen
         $subscriber = $this->subscriberModel->load($id);
         $subscriber->delete();
 
-        return $subscriber;
+        return;
     }
 }
 
